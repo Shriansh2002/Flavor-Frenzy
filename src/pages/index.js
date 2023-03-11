@@ -1,9 +1,11 @@
 import Head from 'next/head';
 
-import Header from '@/components/global/header.jsx';
-import FeaturedMenuItems from '@/components/FeaturedMenuItems.jsx';
-import HeroSection from '@/components/HeroSection';
-import Footer from '@/components/global/footer';
+import {
+  Header,
+  HeroSection,
+  FeaturedMenuItems,
+  Footer
+} from '@/components';
 
 const HomePage = () => {
 

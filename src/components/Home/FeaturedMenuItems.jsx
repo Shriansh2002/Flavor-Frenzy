@@ -1,4 +1,4 @@
-import allItems from '../data/AllItems.json';
+import allItems from '../../data/AllItems.json';
 import MenuItemCard from './MenuItemCard';
 
 const FeaturedMenuItems = () => {
