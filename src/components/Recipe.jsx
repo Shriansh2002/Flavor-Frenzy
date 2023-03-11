@@ -22,8 +22,8 @@ const Recipe = ({ recipe }) => {
 			<div className="mb-4">
 				<h2 className="text-xl font-bold mb-2">Ingredients:</h2>
 				<ul className="list-disc list-inside">
-					{recipe.ingredients.map((ingredient) => (
-						<li key={ingredient} className="text-gray-700">
+					{recipe.ingredients.map((ingredient, _idx) => (
+						<li key={_idx} className="text-gray-700">
 							{ingredient}
 						</li>
 					))}
