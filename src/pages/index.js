@@ -13,18 +13,17 @@ const HomePage = () => {
         <title>Menu - Flavor Frenzy</title>
       </Head>
 
-      <Header />
+      <main className='flex flex-col min-h-screen justify-between'>
 
+        <Header />
 
-      <main>
         <HeroSection />
 
         <FeaturedMenuItems />
 
+        <Footer />
+
       </main>
-
-      <Footer />
-
     </>
   );
 };

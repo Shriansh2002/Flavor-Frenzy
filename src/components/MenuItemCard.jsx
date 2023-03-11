@@ -12,7 +12,8 @@ const MenuItemCard = ({ item }) => {
 				<div className="absolute inset-0 bg-black opacity-30"></div>
 				<div className="absolute inset-0 flex items-center justify-center">
 					<h2 className="text-white font-bold text-3xl text-center">
-						{name} - {category}
+						{name} {''}
+						{category.charAt(0).toUpperCase() + category.slice(1)}
 					</h2>
 				</div>
 			</div>
