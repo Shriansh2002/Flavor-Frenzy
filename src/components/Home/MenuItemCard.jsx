@@ -1,5 +1,7 @@
+import Link from 'next/link';
+
 const MenuItemCard = ({ item }) => {
-	const { name, description, ingredients, price, image, category } = item;
+	const { id, name, description, ingredients, price, image, category } = item;
 
 	return (
 		<div className="bg-white shadow-lg rounded-xl overflow-hidden flex flex-col hover:shadow-2xl transition-all duration-300 ease-in-out transform hover:-translate-y-1">
@@ -20,9 +22,11 @@ const MenuItemCard = ({ item }) => {
 			<div className="py-4 px-6">
 				<div className="flex justify-between items-center mb-4">
 					<p className="text-gray-700 font-bold text-lg">${price}</p>
-					<button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
-						View Details
-					</button>
+					<Link href={`/recipe/${id}`}>
+						<button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full">
+							View Details
+						</button>
+					</Link>
 				</div>
 				<p className="text-gray-700 text-lg mb-4">
 					{description || 'Description Not Provided'}
