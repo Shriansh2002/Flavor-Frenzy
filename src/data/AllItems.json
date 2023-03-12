@@ -1,43 +1,37 @@
 [
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a1",
 		"name": "Margherita",
-		"description": "",
+		"description": "Margherita pizza is a simple pizza made with mozzarella, tomatoes, and basil.",
 		"category": "pizza",
-		"ingredients": ["tomato sauce", "mozzarella"],
 		"spicy": false,
 		"vegetarian": true,
 		"price": 17.0,
-		"image": "https://i.imgur.com/8B8YLOo.jpg"
-	},
-	{
-		"name": "Pepperoni",
-		"description": "",
-		"category": "pizza",
-		"ingredients": ["tomato sauce", "mozzarella", "double pepperoni"],
-		"spicy": false,
-		"vegetarian": false,
-		"price": 20.0,
-		"image": "https://i.imgur.com/OHHctnf.jpg"
-	},
-	{
-		"name": "Rome",
-		"description": "",
-		"category": "pizza",
+		"image": "https://i.imgur.com/8B8YLOo.jpg",
 		"ingredients": [
-			"tomato sauce",
-			"mozzarella",
-			"ham",
-			"mushrooms",
-			"beef cubes"
+			"6-8 ripe tomatoes, diced",
+			"1 onion, chopped",
+			"4 cloves garlic, minced",
+			"1/4 cup olive oil",
+			"1 tsp dried basil",
+			"1 tsp dried oregano",
+			"4 cups chicken or vegetable broth",
+			"Salt and pepper to taste"
 		],
-		"spicy": false,
-		"vegetarian": false,
-		"price": 25.75,
-		"image": "https://i.imgur.com/3ZTwCfz.png"
+		"instructions": [
+			"Heat the olive oil in a large pot over medium heat. Add the onion and garlic and cook until the onion is translucent.",
+			"Add the diced tomatoes and cook for 5-7 minutes, until the tomatoes start to break down.",
+			"Stir in the basil and oregano, then add the broth.",
+			"Bring to a simmer and let cook for 15-20 minutes.",
+			"Use an immersion blender to blend the soup until smooth, or transfer to a blender and blend in batches.",
+			"Season with salt and pepper to taste.",
+			"Serve hot with crusty bread."
+		]
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a2",
 		"name": "American Spicy",
-		"description": "",
+		"description": "American Spicy Pizza",
 		"category": "pizza",
 		"ingredients": [
 			"tomato sauce",
@@ -52,9 +46,19 @@
 		"spicy": true,
 		"vegetarian": false,
 		"price": 30.25,
-		"image": "https://i.imgur.com/dyoOLCO.png"
+		"image": "https://i.imgur.com/dyoOLCO.png",
+		"instructions": [
+			"Heat the olive oil in a large pot over medium heat. Add the onion and garlic and cook until the onion is translucent.",
+			"Add the diced tomatoes and cook for 5-7 minutes, until the tomatoes start to break down.",
+			"Stir in the basil and oregano, then add the broth.",
+			"Bring to a simmer and let cook for 15-20 minutes.",
+			"Use an immersion blender to blend the soup until smooth, or transfer to a blender and blend in batches.",
+			"Season with salt and pepper to taste.",
+			"Serve hot with crusty bread."
+		]
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a3",
 		"name": "Quattro Stagioni",
 		"description": "",
 		"category": "pizza",
@@ -72,6 +76,7 @@
 		"image": "https://i.imgur.com/wOEuXuV.jpg"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a4",
 		"name": "Pork & Feta",
 		"description": "",
 		"category": "pizza",
@@ -89,6 +94,7 @@
 		"image": "https://i.imgur.com/48Zw4K3.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a5",
 		"name": "Quattro Formaggi",
 		"description": "",
 		"category": "pizza",
@@ -105,6 +111,7 @@
 		"image": "https://i.imgur.com/MDrTvkI.jpg"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a6",
 		"name": "Carnivora",
 		"description": "",
 		"category": "pizza",
@@ -122,6 +129,7 @@
 		"image": "https://i.imgur.com/0vPtSSO.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a7",
 		"name": "Louisiana Chicken",
 		"description": "",
 		"category": "pizza",
@@ -139,6 +147,7 @@
 		"image": "https://i.imgur.com/lZtwJgy.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a8",
 		"name": "Honey Mustard Chicken",
 		"description": "",
 		"category": "pizza",
@@ -155,6 +164,7 @@
 		"image": "https://i.imgur.com/SoZu61g.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1a9",
 		"name": "Hawaiian",
 		"description": "",
 		"category": "pizza",
@@ -172,6 +182,7 @@
 		"image": "https://i.imgur.com/mqTgvgl.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b1",
 		"name": "Classic",
 		"description": "",
 		"category": "pizza",
@@ -188,6 +199,7 @@
 		"image": "https://i.imgur.com/k6IGrUd.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b2",
 		"name": "Pastrami",
 		"description": "",
 		"category": "pizza",
@@ -205,6 +217,7 @@
 		"image": "https://i.imgur.com/yOe5RtC.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b3",
 		"name": "Hot Pastrami",
 		"description": "",
 		"category": "pizza",
@@ -222,6 +235,7 @@
 		"image": "https://i.imgur.com/ipMA5LP.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b4",
 		"name": "Country",
 		"description": "",
 		"category": "pizza",
@@ -239,6 +253,7 @@
 		"image": "https://i.imgur.com/E67Xf8Y.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b5",
 		"name": "Hot Cheese",
 		"description": "",
 		"category": "pizza",
@@ -257,6 +272,7 @@
 		"image": "https://i.imgur.com/v4sa2cA.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b6",
 		"name": "Ocean",
 		"description": "",
 		"category": "pizza",
@@ -274,6 +290,7 @@
 		"image": "https://i.imgur.com/w5IQ2rX.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b7",
 		"name": "BBQ",
 		"description": "",
 		"category": "pizza",
@@ -293,6 +310,7 @@
 		"image": "https://i.imgur.com/znqS9KD.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b8",
 		"name": "Mexicana",
 		"description": "",
 		"category": "pizza",
@@ -312,6 +330,7 @@
 		"image": "https://i.imgur.com/cYpO8RT.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1b9",
 		"name": "Bolognese",
 		"description": "",
 		"category": "pasta",
@@ -322,6 +341,7 @@
 		"image": "https://i.imgur.com/IXDJ52k.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c1",
 		"name": "Carbonara",
 		"description": "",
 		"category": "pasta",
@@ -337,6 +357,7 @@
 		"image": "https://i.imgur.com/3jKSuUu.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c2",
 		"name": "Caesar",
 		"description": "",
 		"category": "salads",
@@ -356,6 +377,7 @@
 		"image": "https://i.imgur.com/QWXH2NC.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c3",
 		"name": "Greek",
 		"description": "",
 		"category": "salads",
@@ -377,6 +399,7 @@
 		"image": "https://i.imgur.com/qChqf83.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c4",
 		"name": "Tuna",
 		"description": "",
 		"category": "salads",
@@ -396,6 +419,7 @@
 		"image": "https://i.imgur.com/Ph0IjrX.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c5",
 		"name": "Brownie",
 		"description": "A delicious cake with chocolate and hazelnuts",
 		"category": "dessert",
@@ -406,6 +430,7 @@
 		"image": "https://i.imgur.com/7WbfaDN.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c6",
 		"name": "Chocolate Tortilla",
 		"description": "Tortilla filled with chocolate cream",
 		"category": "dessert",
@@ -416,6 +441,7 @@
 		"image": "https://i.imgur.com/Mgsc3IZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c7",
 		"name": "Apple Pie",
 		"description": "Hot pie with apple and cinnamon",
 		"category": "dessert",
@@ -426,6 +452,7 @@
 		"image": "https://i.imgur.com/OWIVhWX.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c8",
 		"name": "Cheesecake",
 		"description": "Cheesecake with berries topping",
 		"category": "dessert",
@@ -436,6 +463,7 @@
 		"image": "https://i.imgur.com/AsldA7x.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1c9",
 		"name": "Coca Cola",
 		"description": "Coca Cola 330ml",
 		"category": "drinks",
@@ -446,6 +474,7 @@
 		"image": "https://i.imgur.com/nJ6LeWv.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d1",
 		"name": "Fanta",
 		"description": "Fanta 330ml",
 		"category": "drinks",
@@ -456,6 +485,7 @@
 		"image": "https://i.imgur.com/1WDkfme.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d2",
 		"name": "Sprite",
 		"description": "Sprite 330ml",
 		"category": "drinks",
@@ -466,6 +496,7 @@
 		"image": "https://i.imgur.com/qP4Nx1x.jpg"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d3",
 		"name": "Water",
 		"description": "Dorna 0.5L",
 		"category": "drinks",
@@ -476,6 +507,7 @@
 		"image": "https://i.imgur.com/yYuuaL1.jpg"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d4",
 		"name": "Sparkling water",
 		"description": "Dorna 0.5L",
 		"category": "drinks",
@@ -486,6 +518,7 @@
 		"image": "https://i.imgur.com/0nyJk19.jpg"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d5",
 		"name": "Fuzetea",
 		"description": "Fuzetea 0.5L Peach or Lemon",
 		"category": "drinks",
@@ -496,6 +529,7 @@
 		"image": "https://i.imgur.com/dsHumXE.jpg"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d6",
 		"name": "BBQ",
 		"description": "",
 		"category": "sauces",
@@ -506,6 +540,7 @@
 		"image": "https://i.imgur.com/k5Dg7hZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d7",
 		"name": "Pizza",
 		"description": "",
 		"category": "sauces",
@@ -516,6 +551,7 @@
 		"image": "https://i.imgur.com/k5Dg7hZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d8",
 		"name": "Salsa",
 		"description": "",
 		"category": "sauces",
@@ -526,6 +562,7 @@
 		"image": "https://i.imgur.com/k5Dg7hZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1d9",
 		"name": "Sweet Chilli",
 		"description": "",
 		"category": "sauces",
@@ -536,6 +573,7 @@
 		"image": "https://i.imgur.com/k5Dg7hZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e1",
 		"name": "Spicy TABASCO",
 		"description": "",
 		"category": "sauces",
@@ -546,6 +584,7 @@
 		"image": "https://i.imgur.com/k5Dg7hZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e2",
 		"name": "Mayonnaise",
 		"description": "",
 		"category": "sauces",
@@ -556,6 +595,7 @@
 		"image": "https://i.imgur.com/OmejA2J.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e3",
 		"name": "Ketchup",
 		"description": "",
 		"category": "sauces",
@@ -566,6 +606,7 @@
 		"image": "https://i.imgur.com/k5Dg7hZ.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e4",
 		"name": "Garlic sauce",
 		"description": "",
 		"category": "sauces",
@@ -576,6 +617,7 @@
 		"image": "https://i.imgur.com/OmejA2J.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e5",
 		"name": "Wedges",
 		"description": "Baked potatoes, slightly spicy",
 		"category": "sides",
@@ -586,6 +628,7 @@
 		"image": "https://i.imgur.com/sxP6sJt.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e6",
 		"name": "Onion rings",
 		"description": "Fried onion rings",
 		"category": "sides",
@@ -596,6 +639,7 @@
 		"image": "https://i.imgur.com/i3Jintb.png"
 	},
 	{
+		"_id": "5f9f1b0b8b0b5b0017b0b1e7",
 		"name": "Coleslaw",
 		"description": "Cabbage salad, carrots and dressing",
 		"category": "sides",
